@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+.wrapper {
+    color: white;
+    margin:auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.vertical-align {
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 400px;
+}
+
+.vertical-align div {
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+}
+
+.vertical-align h1 {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    padding-left: 30px;
+}
+
+#show-toast-button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.notifications {
+    width: 400px; 
+}
+
+.notification {
+    border: 1px solid black;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+}
+
+.Success {
+    background-color: green;
+}
+
+.Error {
+    background-color: red;
+}
+
+.timer {
+    width: 40px;
+    background-color: rgb(72, 43, 239);
+    height: 100%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;   
+}
+
+span {
+    margin: auto;
+}
+
+.timerCount {
+    line-height: 3;
+}
+
+.cross {
+    width: 20px;
+    border: 1px transparent;
+    height: 23px;
+    border-radius: 20px;
+    margin-right: 3px;
+    margin-top: 3px;
+    background-color: rgb(72, 43, 239);
+    cursor: pointer;
+}
+
+
+
+
